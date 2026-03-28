@@ -1,7 +1,11 @@
 # Poetify: Chinese Poetry App
 
-Welcome to **Poetify**, a next-generation poetry learning platform designed to bridge the gap between Tang/Song dynasty literature and AI-driven cognitive tools. This project is a collaborative effort focusing on a seamless "Search-Read-Recite-Record" ecosystem.
+Welcome to **Poetify**, a Chinese poetry web application designed to bridge the gap between Tang/Song dynasty literature and AI-driven cognitive tools. This project is a collaborative effort focusing on a seamless "Search-Read-Recite-Record" ecosystem.
 
+---
+
+## Live Demo
+* **[poetify-sigma.vercel.app](https://poetify-sigma.vercel.app)**
 ---
 
 ## Project Highlights
