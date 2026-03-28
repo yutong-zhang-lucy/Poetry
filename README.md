@@ -1,6 +1,8 @@
 # Poetify: Chinese Poetry App
 
-Welcome to **Poetify**, a Chinese poetry web application designed to bridge the gap between Tang/Song dynasty literature and AI-driven cognitive tools. This project is a collaborative effort focusing on a seamless "Search-Read-Recite-Record" ecosystem.
+Welcome to **Poetify**, a Chinese poetry app designed for anyone who wants to search, read, recite, and record classical Chinese poetry, all on their own, without needing a partner.
+Whether you're a student preparing for exams or simply someone who loves classical literature, Poetify guides you through the process of truly understanding and remembering each poem.
+
 
 ---
 
