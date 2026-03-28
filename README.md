@@ -1,60 +1,20 @@
-# Poetify: Chinese Poetry App
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Welcome to **Poetify**, a next-generation poetry learning platform designed to bridge the gap between Tang/Song dynasty literature and AI-driven cognitive tools. This project is a collaborative effort focusing on a seamless "Search-Read-Recite-Record" ecosystem.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## Project Highlights
-* **Progressive Recall Engine:** A unique 4-level hint system to assist memorization without spoiling the answer.
-* **AI-Centric Vision:** Architected for **Vector Embeddings** to enable future imagery-based discovery (e.g., searching by "mood").
-* **Custom Learning Journey:** Designed for integrated "Memory Hooks" and personal annotations to foster deep cognitive connection with classical texts.
-* **Modern Typography:** Optimized rendering for Pinyin and classical Chinese characters to ensure an aesthetic reading experience.
+View your app in AI Studio: https://ai.studio/apps/drive/1ESCFWafkL0569hvBCezcgNTxUFWqqq1b
 
----
+## Run Locally
 
-## Development Roadmap & Project Status
+**Prerequisites:**  Node.js
 
-The project is currently in the **Alpha (Core Framework)** stage. We have successfully established the foundational architecture and primary interaction engines.
 
-### Phase 1: Core Framework (Completed)
-* **Feature A - Multi-Layer Viewer:** Sophisticated rendering structure for Pinyin, Chinese characters, and annotations.
-* **Feature B - Search Engine:** High-performance retrieval framework supporting Title, Author, and Keyword queries.
-* **Feature C - Recitation Engine:** Functional implementation of the 4-level progressive hint logic.
-* **System Architecture:** Established the core navigation and UI state management.
-
-### Phase 2: Functional Mastery (In Progress)
-* **Data Integration:** Importing and parsing the `chinese-poetry` dataset (Tang 300 collection).
-* **Feature D - Progress Tracking:** Systems for logging recitation history and "Mastered" status.
-* **Feature E - Personal Knowledge Base:** Enabling custom user notes and memory hooks for every verse.
-* **Data Persistence:** Robust local storage (SQLite) implementation for user-generated content.
-
-### Phase 3: Intelligence & Optimization (Planned)
-* **Semantic Search:** Vector-based imagery retrieval via Embeddings to search by "mood."
-* **AI Philologist:** LLM-powered dynamic annotations and contextual recitation hints.
-* **Retention Algorithm:** Automated review cycles based on the Ebbinghaus Forgetting Curve.
-
----
-
-## Project Blueprints (Detailed Specs)
-To understand our vision and technical roadmap, please explore our core specification documents:
-
-1. **[Product Blueprint](./Product-Blueprint.md)**
-   * *Focus:* Product Vision, Core Recitation Engine, and Progressive Hint Logic.
-2. **[Technical Architecture](./Technical-Architecture.md)**
-   * *Focus:* Local Data Persistence (SQLite), Embedding Pipelines, and LLM Integration.
-3. **[UX & Roadmap](./UX-and-Roadmap.md)**
-   * *Focus:* Minimalist Design Principles and V2.0 Growth Strategy.
-
----
-
-## Tech Stack & Data
-* **Framework:** Exploring Flutter/Swift for cross-platform aesthetic excellence.
-* **Database:** Local SQLite for offline-first user data persistence.
-* **Data Source:** Powered by the `chinese-poetry` open-source dataset.
-
----
-
-## Collaborative Development
-This repository is co-maintained by **yutong-zhang-lucy** and **yushi-zhang-maria**. We are focused on building a high-performance, AI-driven poetry learning platform that respects classical traditions.
-
----
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

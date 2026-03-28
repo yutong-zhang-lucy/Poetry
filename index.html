@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>书院唐诗</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;700&family=Zhi+Mang+Xing&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "xuan": "#f4f1e6",
+                        "ink": "#2c2c2c",
+                        "vermilion": "#b22222",
+                        "wood": "#8b5a2b",
+                        "bamboo": "#4F6F46",
+                        "indigo": "#2E59A7"
+                    },
+                    fontFamily: {
+                        "serif": ["Noto Serif SC", "serif"],
+                        "calligraphy": ["Zhi Mang Xing", "cursive"],
+                        "sans": ["Noto Sans SC", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f4f1e6;
+            background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            font-family: 'Noto Serif SC', serif;
+            color: #2c2c2c;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .handscroll-bg {
+            background: linear-gradient(90deg, #d4c4a8 0%, #f4f1e6 5%, #f4f1e6 95%, #d4c4a8 100%);
+            border-top: 1px solid #c4b498;
+            border-bottom: 1px solid #c4b498;
+        }
+        .fan-shape {
+            clip-path: polygon(0% 100%, 15% 20%, 50% 0%, 85% 20%, 100% 100%);
+            background: linear-gradient(to bottom, #fffef0, #f0e6d2);
+        }
+        .bookmark {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/src/index.tsx"></script>
+</body>
+</html>
